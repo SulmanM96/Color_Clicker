@@ -1,0 +1,165 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  background: darkgrey;
+}
+
+button {
+
+    background: darkgrey;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.score {
+  background:darkgrey;
+  line-height:1;
+  border-radius:1rem;
+}
+.timer {
+  background:darkgrey;
+  line-height:1;
+  border-radius:1rem;
+}
+
+.game {
+  width:900px;
+  height:600px;
+  display:flex;
+  flex-wrap:wrap;
+  margin:0 auto;
+}
+
+.position {
+  flex: 1 1 33.33%;
+  overflow: hidden;
+  position: relative;
+}
+
+.position:after {
+  display: block;
+  background: ;
+  bottom center no-repeat;
+  background-size:contain;
+  content:'';
+  width: 100%;
+  height:60px;
+  position: absolute;
+  z-index: 2;
+  bottom:-30px;
+}
+
+.wcircle {
+  background:url("../wcircle.png");
+  position: absolute;
+  background-size:60%;
+  background-repeat: no-repeat;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.pcircle {
+  background:url("../pcircle.png");
+  position: absolute;
+  background-size:60%;
+  background-repeat: no-repeat;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+}
+.bcircle {
+  background:url("../bcircle.png");
+  position: absolute;
+  background-size:60%;
+  background-repeat: no-repeat;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+}
+.ycircle {
+  background:url("../ycircle.png");
+  position: absolute;
+  background-size:60%;
+  background-repeat: no-repeat;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+}
+.rcircle {
+  background:url("../rcircle.png");
+  position: absolute;
+  background-size:60%;
+  background-repeat: no-repeat;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+}
+.ocircle {
+  background:url("../ocircle.png");
+  position: absolute;
+  background-size:60%;
+  background-repeat: no-repeat;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+}
+.gcircle {
+  background:url("../gcircle.png");
+  position: absolute;
+  background-size:60%;
+  background-repeat: no-repeat;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+}
+.blcircle {
+  background:url("../blcircle.png");
+  position: absolute;
+  background-size:60%;
+  background-repeat: no-repeat;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+}
+.brcircle {
+  background:url("../brcircle.png");
+  position: absolute;
+  background-size:60%;
+  background-repeat: no-repeat;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+}
+.position.appear .wcircle {
+  top:0;
+}
+
+.position.appear .pcircle {
+  top:0;
+}
+
+.position.appear .ycircle {
+  top:0;
+}
+
+.position.appear .ocircle {
+  top:0;
+}
+
+.position.appear .rcircle {
+  top:0;
+}
+
+.position.appear .bcircle {
+  top:0;
+}
+
+.position.appear .brcircle {
+  top:0;
+}
+.position.appear .blcircle {
+  top:0;
+}
+.position.appear .gcircle {
+  top:0;
+}
